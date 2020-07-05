@@ -2,18 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ecommerce</title>
 
     <!-- Boostrap cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
     <!-- fontawesome cdn -->
     <script src="https://kit.fontawesome.com/d2c128ec88.js" crossorigin="anonymous"></script>
 
     <!-- custom style -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
 
     <!-- slick for slider cdn-->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -27,8 +27,10 @@
                 <!-- currency -->
                 <div class="col-md-4 col-sm-12 col-12">
                     <div class="btn-group">
-                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle='dropdown'
-                            aria-expanded="false" aria-haspopup="true">KES</button>
+                        <button class="btn border dropdown-toggle my-md-4 my-2 text-white" data-toggle="dropdown"
+                            aria-expanded="false" aria-haspopup="true">
+                            KES
+                        </button>
                         <div class="dropdown-menu">
                             <a href="#" class="dropdown-item">USD</a>
                         </div>
@@ -60,23 +62,24 @@
                         <li class="nav-item active">
                             <a class="nav-link text-uppercase" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">Collection</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-uppercase" href="#">About Us</a>
-                        </li>
+
                     </ul>
+                    <!-- categories -->
+                    <div class="input-group mb-3 col-md-4 col-sm-4 col-xs-12 offset-md-4 offset-sm-4 mt-3 nav-item">
+                        <div class="input-group-prepend">
+                            <label class="input-group-text" for="inputGroupSelect01">Categories</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option selected>Choose...</option>
+                            <option value="1">Phones</option>
+                            <option value="2">Furniture</option>
+                            <option value="3">Home</option>
+                        </select>
+                    </div>
                 </div>
 
                 <div class="navbar-nav">
-                    <!-- <input type="text" class="form-control"> -->
+                    <input type="text" class="form-control" />
                     <li class="nav-item border rounded-circle mx-2 search-icon">
                         <i class="fas fa-search p-2 btn" aria-hidden="true" type="button"></i>
                     </li>
@@ -90,91 +93,25 @@
 
     <!-- Main section -->
     <main class="mb-3">
-        <!-- First Slider -->
-        <div class="container-fluid p-0">
-            <div class="site-slider">
-                <div class="slider-one">
-                    <div class="">
-                        <img src="./assets/download.jfif" class="img-fluid" alt="phone" srcset="">
-                    </div>
-                    <div class="">
-                        <img src="./assets/download (1).jfif" class="img-fluid" alt="phone" srcset="">
-                    </div>
-                    <div class="">
-                        <img src="./assets/download (2).jfif" class="img-fluid" alt="phone" srcset="">
-                    </div>
-                </div>
-                <!-- next and previous buttons -->
-                <div class="slider-btn">
-                    <span class="prev position-top"><i class="fas fa-chevron-left"></i></span>
-                    <span class="next position-top right-0"><i class="fas fa-chevron-right"></i></span>
-                </div>
-            </div>
-        </div>
-        <!-- /First Slider -->
-
-        <!-- Second slider -->
-        <div class="container-fluid">
-            <div class="site-slider-two px-md-4">
-                <div class="row slider-two text-center">
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (4).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (5).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (6).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (7).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (8).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (9).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (4).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                    <div class="col-md-2 product pt-md-5 pt-4">
-                        <img src="./assets/download (4).jfif" class="img-fluid" alt="product1" srcset="">
-                        <span class="border site-btn btn-span text-uppercase">Bed</span>
-                    </div>
-                </div>
-                <!-- next and previous buttons -->
-                <div class="slider-btn">
-                    <span class="prev position-top"><i class="fas fa-chevron-left fa-2x text-secondary"></i></span>
-                    <span class="next position-top right-0"><i
-                            class="fas fa-chevron-right fa-2x text-secondary"></i></span>
-                </div>
-            </div>
-        </div>
-        <!-- /Second slider -->
-
         <!-- Featured Products -->
-        <div class="container featuredProducts">
-            <h2>Featured Products</h2>
+
+        <div class="container-fluid featuredProducts mt-3">
+            <h2 class="rounded">Featured Products</h2>
             <div class="row">
                 <!-- product 1 -->
                 <div class="col-md-3">
                     <div class="product-top">
-                        <img src="./assets/download (10).jfif" alt="" srcset="">
+                        <img src="./assets/download (10).jfif" alt="" srcset="" height="250" width="150" />
                         <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick Shop"><i
-                                    class="far fa-eye"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i
-                                    class="far fa-heart"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart"><i
-                                    class="fas fa-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
 
@@ -192,14 +129,17 @@
                 <!-- product two -->
                 <div class="col-md-3">
                     <div class="product-top">
-                        <img src="./assets/download (1).jfif" alt="" srcset="">
+                        <img src="./assets/download (1).jfif" alt="" srcset="" />
                         <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick Shop"><i
-                                    class="far fa-eye"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i
-                                    class="far fa-heart"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart"><i
-                                    class="fas fa-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
 
@@ -216,16 +156,19 @@
                 </div>
 
                 <!-- product three -->
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="product-top">
-                        <img src="./assets/download (3).jfif" alt="" srcset="">
+                        <img src="./assets/download (3).jfif" alt="" srcset="" />
                         <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick Shop"><i
-                                    class="far fa-eye"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i
-                                    class="far fa-heart"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart"><i
-                                    class="fas fa-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
 
@@ -242,16 +185,19 @@
                 </div>
 
                 <!-- Product four -->
-                <div class="col-md-3">
+                <div class="col-md-2">
                     <div class="product-top">
-                        <img src="./assets/download (1).jfif" alt="" srcset="">
+                        <img src="./assets/download (1).jfif" alt="" srcset="" />
                         <div class="overlay">
-                            <button type="button" class="btn btn-secondary" title="Quick Shop"><i
-                                    class="far fa-eye"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Wishlist"><i
-                                    class="far fa-heart"></i></button>
-                            <button type="button" class="btn btn-secondary" title="Add to Cart"><i
-                                    class="fas fa-shopping-cart"></i></button>
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
 
@@ -266,14 +212,93 @@
                         <h5>Kes.4000</h5>
                     </div>
                 </div>
+                <div class="col-md-2">
+                    <div class="product-top">
+                        <img src="./assets/download (1).jfif" alt="" srcset="" />
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
 
+                    <!-- product bottom text -->
+                    <div class="product-bottom text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                        <h3>Fitness Watch</h3>
+                        <h5>Kes.4000</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="product-top">
+                        <img src="./assets/download (1).jfif" alt="" srcset="" />
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- product bottom text -->
+                    <div class="product-bottom text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                        <h3>Fitness Watch</h3>
+                        <h5>Kes.4000</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="product-top">
+                        <img src="./assets/download (1).jfif" alt="" srcset="" />
+                        <div class="overlay">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="far fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Wishlist">
+                                <i class="far fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to Cart">
+                                <i class="fas fa-shopping-cart"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- product bottom text -->
+                    <div class="product-bottom text-center">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                        <i class="far fa-star"></i>
+                        <h3>Fitness Watch</h3>
+                        <h5>Kes.4000</h5>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- /Featured Products -->
     </main>
 
     <footer></footer>
-
 
     <!-- Bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
